@@ -1,0 +1,107 @@
+/* Hover */
+.displayEnter .burger, .displayEnter .burger::before, .displayEnter .burger::after {
+  box-shadow: 0 0 2px rgb(255, 255, 255);
+}
+.displayEnterDone .burger, .displayEnterDone .burger::before, .displayEnterDone .burger::after {
+  box-shadow: 0 0 2px rgb(255, 255, 255);
+}
+.displayExit .burger, .displayExit .burger::before, .displayExit .burger::after {
+  box-shadow: 0 0 2px rgba(0,0,0,1);
+}
+.displayExitDone .burger, .displayExitDone .burger::before, .displayExitDone .burger::after {
+  box-shadow: 0 0 2px rgba(0,0,0,1);
+}
+
+.burgerWrapper {
+  position: fixed;
+  z-index: 3;
+  top: 11%;
+  left: 10.7%;
+  width: 40px;
+  height: 40px;
+}
+
+/* Appearance of burger */
+
+.burger {
+  position: relative;
+  top: 45%;
+  left: 11%;
+  width: 30px;
+  height: 3px;
+  animation: formBuild 6s;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 2px rgba(0,0,0,1);
+}
+
+.burger::before {
+  content: "";
+  position: absolute;
+  bottom: 230%;
+  width: 30px;
+  height: 3px;
+  animation: formBuild 6s;
+  background-color: rgb(255, 255, 255);
+  transition: bottom 0.2s linear 0.2s, transform 0.2s ease-in;
+  box-shadow: 0 0 2px rgba(0,0,0,1);
+}
+
+.burger::after {
+  content: "";
+  position: absolute;
+  top: 230%;
+  width: 30px;
+  height: 3px;
+  animation: formBuild 6s;
+  background-color: rgb(255, 255, 255);
+  transition: top 0.2s linear 0.2s, transform 0.2s ease-in;
+  box-shadow: 0 0 2px rgba(0,0,0,1);
+}
+
+/* Close menu burger */
+
+.burgerClose {
+  position: relative;
+  top: 45%;
+  left: 11%;
+  width: 0px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.burgerClose::before {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease-in 0.2s, bottom 0.2s linear;
+}
+
+.burgerClose::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease-in 0.2s, top 0.2s linear;
+}
+
+/* Burger animations */
+
+@keyframes formBuild {
+  from {width: 0px;}
+  90% {width: 0px;}
+  to {width: 30px;}
+}
+
+@keyframes formClose {
+  from {width: 0px;}
+  90% {width: 0px;}
+  to {width: 30px;}
+}
+
