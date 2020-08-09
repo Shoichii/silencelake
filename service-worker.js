@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/silencelake/precache-manifest.602d9196680fb0bc341ee6a4918a016f.js"
+  "/silencelake/precache-manifest.9eb7dd46218c37695c472a80013ed93b.js"
 );
 
 self.addEventListener('message', (event) => {
