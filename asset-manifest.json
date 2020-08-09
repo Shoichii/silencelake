@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.7cd045e2.chunk.css",
-    "main.js": "./static/js/main.1167d099.chunk.js",
-    "main.js.map": "./static/js/main.1167d099.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.605809b0.js",
-    "runtime-main.js.map": "./static/js/runtime-main.605809b0.js.map",
-    "static/js/2.31695d6d.chunk.js": "./static/js/2.31695d6d.chunk.js",
-    "static/js/2.31695d6d.chunk.js.map": "./static/js/2.31695d6d.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.b0beb947902edee0cca365183098610e.js": "./precache-manifest.b0beb947902edee0cca365183098610e.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.7cd045e2.chunk.css.map": "./static/css/main.7cd045e2.chunk.css.map",
-    "static/js/2.31695d6d.chunk.js.LICENSE.txt": "./static/js/2.31695d6d.chunk.js.LICENSE.txt",
-    "static/media/Content.module.css": "./static/media/PhotoOfAVastWheat Field.6935b167.jpg",
-    "static/media/Welcome.module.css": "./static/media/PhotoOfTranquilRiver.12738265.jpg"
+    "main.css": "/silencelake/static/css/main.5b13b301.chunk.css",
+    "main.js": "/silencelake/static/js/main.a16f6b5e.chunk.js",
+    "main.js.map": "/silencelake/static/js/main.a16f6b5e.chunk.js.map",
+    "runtime-main.js": "/silencelake/static/js/runtime-main.7a181aa1.js",
+    "runtime-main.js.map": "/silencelake/static/js/runtime-main.7a181aa1.js.map",
+    "static/js/2.31695d6d.chunk.js": "/silencelake/static/js/2.31695d6d.chunk.js",
+    "static/js/2.31695d6d.chunk.js.map": "/silencelake/static/js/2.31695d6d.chunk.js.map",
+    "index.html": "/silencelake/index.html",
+    "precache-manifest.d33f488a0d4324b4c610847b344fd911.js": "/silencelake/precache-manifest.d33f488a0d4324b4c610847b344fd911.js",
+    "service-worker.js": "/silencelake/service-worker.js",
+    "static/css/main.5b13b301.chunk.css.map": "/silencelake/static/css/main.5b13b301.chunk.css.map",
+    "static/js/2.31695d6d.chunk.js.LICENSE.txt": "/silencelake/static/js/2.31695d6d.chunk.js.LICENSE.txt",
+    "static/media/Content.module.css": "/silencelake/static/media/PhotoOfAVastWheat Field.6935b167.jpg",
+    "static/media/Welcome.module.css": "/silencelake/static/media/PhotoOfTranquilRiver.12738265.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.605809b0.js",
+    "static/js/runtime-main.7a181aa1.js",
     "static/js/2.31695d6d.chunk.js",
-    "static/css/main.7cd045e2.chunk.css",
-    "static/js/main.1167d099.chunk.js"
+    "static/css/main.5b13b301.chunk.css",
+    "static/js/main.a16f6b5e.chunk.js"
   ]
 }
